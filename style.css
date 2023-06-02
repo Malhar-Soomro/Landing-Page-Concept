@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@600&family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.nav__title{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+
+.logo__img{
+    width: 48px;
+}
+
+.nav__text{
+    font-family: 'Geologica', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 43px;
+    letter-spacing: -0.04em;
+    color: #303031;
+}
+
+.nav__items{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav__item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.nav__item:last-child{
+    color:#71A894;
+}

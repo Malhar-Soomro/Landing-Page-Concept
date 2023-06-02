@@ -1,0 +1,24 @@
+What are the things needed for this project
+
+Fonts
+1- Futura Round Demi
+2- Proxima Nova
+3- Bely Display
+4- Novel Mono Pro
+
+Assets
+Downloaded two images, one logo for navbar and a sketch of avatars for section below navbar
+
+
+What things you need to learn?
+--> what is function of box-sizing:border-box?
+--> how to use google fonts?
+--> how to use BEM methodology to assign css classes?
+
+--> what is CDN?
+--> how to use google font offline?
+Programming is all about finding things you don't know
+
+
+Landing Page design
+# https://www.figma.com/file/BomqVh0taU23hJgYdjqzBf/Landing-Page-Concept-(Community)?type=design&node-id=0-1&t=WGW45Hl6SQJ4D0Vq-0
