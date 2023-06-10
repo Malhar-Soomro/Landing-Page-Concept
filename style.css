@@ -898,3 +898,459 @@ body{
 .section7__item:last-child{
     color:#71A894;
 }
+
+
+@media (width<=1312px){
+
+    /* Navbar */
+    .logo__img{
+        width: 38px;
+    }
+    
+    .nav__text{
+        font-size: 20px;
+    }
+    
+    .nav__item{
+        font-size: 12px;
+    }
+    
+    /* SECTION 1 */
+    
+    .section1__text h1{
+        font-size: 44px;        
+    }
+    .section1__text p{
+        font-size: 18px;
+    
+    }
+    
+    /* SECTION 2 */
+    .section2__heading{
+        font-size: 30px;
+    
+    }
+    .section2__description{
+        font-size: 14px;
+        margin-top: 0;
+    }
+    
+    .section2__card:last-child{
+        display: block;
+    }
+    
+    .section2__card img{
+        width:64px;
+    }
+    
+    .section2__card  h3{
+        font-size: 19px;
+    
+    }
+    
+    .section2__card p{
+        font-size: 12px;
+    }
+    
+    
+    /* SECTION 3 kickstart */
+    
+    .section3__container-kickstart{
+        justify-content: center;
+        gap:1rem;
+        margin-bottom: 2rem;
+        /* align-items: center; */
+    }
+    
+    .kickstart img{
+        width:70px;
+    
+    }
+    
+    .kickstart h2{
+        font-size: 35px;
+        line-height: 54px;
+    
+    }
+    
+    .kickstart p{
+        font-size: 14px;
+    }
+    
+    
+    .avatars__title{
+        font-size: 1.3rem;
+        line-height: 30px;
+    
+    }
+    
+    .avatar img{
+        width: 42px;
+    }
+    
+    .avatar__text h4{
+        font-size: 22px;
+    
+    }
+    
+    .avatar__text p{
+        font-size: 14px;
+    
+    }
+    
+    /* SECTION 3 onboard */
+    .section3__container-onboard{
+        justify-content: center;
+        margin: 0 2rem;
+        gap: 2rem;
+        
+    }
+    
+    .card{
+        width: 384px;
+    
+    }
+    
+    .avatar__container img{
+        width:52px;
+    }
+    
+    .board__text h4{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    .board__text p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .onboard__p{
+        font-size: 14px;
+        line-height: 20px;
+        word-spacing: .2rem;
+    
+    }
+    
+    .commit p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .commit span{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .shares p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .shares span{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .card button{
+        font-size: 16px;
+        word-spacing: .2rem;
+    }
+    
+    .onboard img{
+        width:70px;
+    
+    }
+    
+    .onboard h2{
+        font-size: 35px;
+        line-height: 54px;
+    
+    }
+    
+    .onboard p{
+        font-size: 14px;
+    }
+    
+    
+    /* SECTION 4  */
+    .committedContainer{
+        justify-content: center;
+    }
+    
+    .committed{
+        margin-bottom: 1rem;
+    }
+    
+    .committed img{
+        width:60px;
+    }
+    
+    .committed h2{
+        font-size: 30;
+        line-height: 54px;
+    }
+    
+    .committed p{
+        font-size: 14px ;
+        width: 380px;
+    }
+    
+    .section5__container{
+        justify-content: center;
+    }
+    
+    
+    .section5__cards{
+        justify-content: center;
+    }
+    
+    /* SECTION 6  */
+    .section6__text h1{
+        font-size: 34px;        
+    
+    }
+    
+    .section6__text p{
+    font-size: 14px;
+    }
+    
+    }
+    
+    @media (width<=768px){
+    
+    /* Navbar */
+    
+    .nav__items{
+        display: none;
+    }
+    
+    .hamburger{
+        display: flex;
+    }
+    
+        /* SECTION 1 */
+    
+    .section1__text h1{
+        font-size: 24px;        
+        line-height: 35px;
+    
+    }
+    .section1__text p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    /* section 4 */
+    .enterpriseCard{
+        margin-bottom: 2rem;
+        width: 58%;
+        min-width: 250px;
+    }
+    
+    .cardContainer {
+        justify-content: center;
+    }
+    
+    .enterpriseCard button {
+        top:40px;
+        right:5px;
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    /* section 5 */
+    .section5__container h1 {
+        font-size: 24px;        
+        line-height: 35px;
+    }
+    
+    
+    /* section 6 */
+    .section6__text h1{
+        font-size: 24px;        
+        line-height: 35px;
+    }
+    
+    /* section 7 */
+    .section7__container{
+        margin: 3rem 1rem;
+    }
+    
+    }
+    
+    @media (width<=683px){
+    
+        /* section 1 */
+    .section1__container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section1__text{
+        text-align: center;
+    }
+    
+    .section1__img{
+        max-width: 280px;
+    }
+    
+    
+    /* section 2 */
+    
+    .section2__heading{
+        text-align: center;
+        /* width: 100%; */
+    }
+    
+    .section2__card{
+        min-width: 300px;
+    }
+    
+    
+        /* section 3 kickstart */
+        
+    .kickstart img{
+            
+    }
+        
+    .section3__container-kickstart{
+        align-items: center;
+    }
+    
+    .kickstart{
+        align-items: center;
+    }
+    
+    .kickstart p{
+        width: 100%;
+    }
+    
+    .avatars{
+        margin-right:0;
+        min-width: 250px;
+    }
+    
+    .avatar{
+        min-width: 50px;
+        /* width: 1%; */
+    
+    }
+    
+    
+    /* section 3 onboard */
+    .onboard{
+        align-items: center;
+    }
+    
+    .onboard p{
+        width: 100%;
+    }
+    
+    .card{
+        min-width: 300px;
+        width: 100%;
+    
+    }
+    
+    
+        /* section 4 */
+    
+    
+    .section4{
+        margin: 0 .1rem;
+        }
+    
+    .enterpriseCard{
+        min-width:310px;
+        width: 40%;
+    }
+    
+    .enterpriseCard p{
+        min-width: 200px;
+        width: 80%;
+    }
+    
+    .cardContainer {
+            gap:0;
+    }
+    
+    .applicationCard{
+        min-width: 300px;
+    }
+    
+    
+    .profileCard{
+        margin-top: 1.5rem;
+    
+    }
+    
+    .committed{
+        align-items: center;
+    }
+    .committed h2{
+        text-align: center;
+        
+    }
+    
+    .committed p{
+        width: 100%;
+        min-width: 300px;
+    }
+    
+    
+    
+    /* .section5__card */
+    
+    
+    .section5__cards{
+        margin: 0 .5rem;
+        width: 100%;
+    }
+    .section5__card{
+        width: 100%;
+    }
+    
+    .section5__container h1{
+        text-align: center;
+    }
+        
+    
+        /* section 6 */
+    .section6__container{
+        flex-direction: column-reverse;
+    }
+    
+    .section6__img{
+        max-width: 280px;
+        margin-bottom: 1rem;
+    }
+    
+    .section6__text{
+        text-align: center;
+        margin-left: .5rem;
+    }
+    
+        /* section 7 */
+    .section7__container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .section7__items{
+        gap:.5rem;
+    }
+    
+    .section7__item{
+        font-size: 13px;
+    }
+    
+    
+    
+    
+    }
+    
+    
