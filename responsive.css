@@ -1,7 +1,8 @@
 
 
 /* @media (width<=1312px){ */
-@media (max-width:1312px){
+/* @media (max-width:1312px){ */
+@media screen and (max-width: 1312px) {
 
     /* Navbar */
     .logo__img{
@@ -219,7 +220,8 @@
     }
     
 /* @media (width<=768px){ */
-@media (max-width:768px){
+/* @media (max-width:768px){ */
+@media screen and (max-width: 768px) {
     
     /* Navbar */
     
@@ -283,7 +285,11 @@
     
     }
     
-    @media (width<=683px){
+    /* @media (width<=683px){ */
+@media screen and (max-width: 683px) {
+
+        
+
     
         /* section 1 */
     .section1__container{
