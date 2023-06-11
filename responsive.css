@@ -1,6 +1,7 @@
 
 
-@media (width<=1312px){
+/* @media (width<=1312px){ */
+@media (max-width:1312px){
 
     /* Navbar */
     .logo__img{
@@ -217,7 +218,8 @@
     
     }
     
-    @media (width<=768px){
+/* @media (width<=768px){ */
+@media (min-width:768px){
     
     /* Navbar */
     
