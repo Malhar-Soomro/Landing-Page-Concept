@@ -447,6 +447,7 @@
     .section7__container {
         flex-direction: column;
         gap: 2rem;
+        margin-bottom: 5rem;
     }
     
     .section7__items{
